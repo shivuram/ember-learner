@@ -2,9 +2,6 @@
 
 <ul>
   {{#each scientist as |person|}}
-    {{!--<li>{{person}}</li>--}}
-    <li>
-        <button {{action "showPerson" person}}>{{person}}</button>
-    </li>
+    <li><button {{action "showPerson" person}}>{{person}}</button></li>
   {{/each}}
 </ul>
